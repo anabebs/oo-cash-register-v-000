@@ -20,7 +20,7 @@ lass CashRegister
       self.total -= self.total * percentage
       "After the discount, the total comes to $#{self.total.floor}."
     end
-  end
+
 
   def void_last_transaction
     self.total -= self.last
