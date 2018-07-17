@@ -1,4 +1,4 @@
-lass CashRegister
+class CashRegister
   attr_accessor :total, :discount, :items, :last
   def initialize(discount=0)
     self.total = 0
